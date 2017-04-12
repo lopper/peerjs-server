@@ -8,8 +8,6 @@ var port = 9000;
 
 app.get('/', function(req, res, next) { res.send('Hello world!'); });
 
-var server = app.listen(port);
-
 var options = {
     debug: false,
 	allow_discovery: false
